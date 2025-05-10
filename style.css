@@ -117,3 +117,7 @@ p, a, strong{
     border-color: linear-gradient(180deg,rgba(147, 43, 217, 1) 0%, rgba(217, 43, 43, 1) 100%);
     transition: all 0.3s ease;
 }
+
+h1{
+    font-size: 40px;
+}
