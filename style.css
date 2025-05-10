@@ -1,0 +1,119 @@
+.centerElements{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #202020;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: white;
+}
+p, a, strong{
+    font-size: 20px;
+}
+
+*{
+    font-family: 'Comic Sans MS';
+}
+
+#chestsRow{
+    width: 100%;
+    height: 384px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #151515;
+    border: 3px solid #ad33ff;
+    border-radius: 10px;
+}
+
+.space-w{
+    width: 16px;
+}
+
+.space-h {
+    height: 16px;
+}
+
+.chest1{
+    width: 352px;
+    height: 257px;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+.chest2{
+    width: 352px;
+    height: 257px;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+.chest3{
+    width: 352px;
+    height: 257px;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+
+.cofre{
+    height: 100%;
+    width: 100%;
+}
+
+#selectButton{
+    width: 256px;
+    height: 35px;
+    border: 1.5px solid #ad33ff;
+    background-color: #ad33ff;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+#selectButton:hover{
+    background-color: #b84dff;
+    border-color: #b84dff;
+    transition: all 0.3s ease;
+}
+
+#selectButton:active{
+    background-color: #932bd9;
+    border-color: #932bd9;
+    transition: all 0.3s ease;
+}
+
+#correctChestDialog{
+    width: 526px;
+    height: 473px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    border: 3px solid #932bd9;
+    background-color: #151515;
+}
+
+#closeDialogButton{
+    width: 256px;
+    height: 35px;
+    border: 1.5px solid #ad33ff;
+    background-color: #ad33ff;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+#closeDialogButton:hover{
+    background-color: #b84dff;
+    border-color: #b84dff;
+    transition: all 0.3s ease;
+}
+
+#closeDialogButton:active{
+    background-color: #932bd9;
+    border-color: linear-gradient(180deg,rgba(147, 43, 217, 1) 0%, rgba(217, 43, 43, 1) 100%);
+    transition: all 0.3s ease;
+}
