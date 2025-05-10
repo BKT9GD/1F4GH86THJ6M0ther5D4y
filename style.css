@@ -87,8 +87,8 @@ p, a, strong{
 }
 
 #correctChestDialog{
-    width: 526px;
-    height: 473px;
+    width: 626px;
+    height: 573px;
     border-radius: 15px;
     transition: all 0.3s ease;
     border: 3px solid #932bd9;
@@ -118,6 +118,6 @@ p, a, strong{
     transition: all 0.3s ease;
 }
 
-h1{
+.h2{
     font-size: 40px;
 }
